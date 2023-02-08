@@ -19,8 +19,9 @@ public class Main {
          findMinMax(stream1, Integer::compareTo,
                  (x, y) -> System.out.println("минимальное значение " + x + "\n" + "максимальное значение " + y));
 
-definitionOfEvenNumbers(integerList);
+          definitionOfEvenNumbers(integerList);
     }
+
     public static<T> void findMinMax (Stream<? extends T> stream,
                                       Comparator<? super T> order,
                                       BiConsumer<? super T, ? super T> minMaxConsumer){
