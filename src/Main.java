@@ -14,7 +14,7 @@ public class Main {
         integerList.add(2);
         integerList.add(67);
         integerList.add(4);
-        Stream stream1 = integerList.stream();
+         Stream stream1 = integerList.stream();
 
          findMinMax(stream1, Integer::compareTo,
                  (x, y) -> System.out.println("минимальное значение " + x + "\n" + "максимальное значение " + y));
